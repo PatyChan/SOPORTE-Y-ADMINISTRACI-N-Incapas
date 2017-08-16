@@ -1,0 +1,299 @@
+body{
+	padding-top: 0rem;
+}
+.logo{
+	background: #E0000A;
+}
+.img1{
+width: 164rem;
+}
+
+.header2{
+	color:#E0000A;
+	background:;
+}
+.header3{
+	margin-top: 2rem;
+	color:black;
+}
+.espacio{
+     margin-top: 2rem;
+     height: 1rem;
+     background: black;
+}
+.fecha{
+	background-color:#D36954;
+}
+.hora{
+	background-color:#84B8E5;
+}
+.comida{
+	background-color:#F5CE2A;
+}
+.header4{
+padding-left: 35rem;
+}
+.container2.col-xs-12.col-sm-8.col-md-2 {
+    top: 1rem;
+    margin-left:-15rem;
+}
+
+/* ESTILO DEL MENU DE INICIO */
+
+ ul {
+   position: absolute;
+}
+
+ ul li {
+   height: 50px;
+   background: green;
+   display: block;
+   font-family:;
+   position: relative;
+   z-index: 100;
+   margin: 5px -9px;
+   -webkit-animation: menu 2s; /*tiempo y nombre que transcurre 1era animacion*/ 
+   -webkit-animation-fill-mode: forwards; /*El objeto sobre el que se aplica la animación quedará con los valores y estilos que le aplique el último keyframe de la ejecución de la animación*/
+   -moz-animation: menu 2s; 
+   -moz-animation-fill-mode: forwards; 
+   -ms-animation:menu 2s;
+   -ms-animation-fill-mode:forwards;
+   animation: menu 2s;
+   animation-fill-mode: forwards; 
+   opacity: 0;
+}
+
+ul li:hover {
+   cursor: pointer;
+  }
+  
+  
+ul li:before {
+    display: block;
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: rgba(255,255,255,0.2) 1px solid;
+    text-align: center;
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.2) 1px 1px 1px;
+    z-index: 200;
+    line-height: 1.3em;
+  }
+    
+  
+  li a {
+     color: #fff;
+     display: block;
+     height: 50px;
+     padding: 0 2em 0 70px;
+     z-index: 100;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 2.8em;
+     position:;
+     top: 0;
+     left: 0;
+     overflow: hidden;
+     -webkit-transition: all 0.1s ease-in-out; /*especifica un efecto de transición con un inicio y fin lentos*/
+     -moz-transition: all 0.1s ease-in-out;
+     -ms-transition:all 0.1s;
+     transition: all 0.1s ease-in-out;
+     text-shadow: rgba(0,0,0,0.3) 1px 1px;
+}
+
+  ul li:nth-child(1) a { 
+    background: #888888; /* nth-child(): se encarga de darle el color a cada casilla, independiente si el padre (ul li) es verde*/
+  }
+
+  ul li:nth-child(2) a {
+    background: #628179;
+  }
+
+  ul li:nth-child(3) a {
+    background: #21aabd;
+  }
+
+  ul li:nth-child(4) a {
+    background: #654b6b;
+  }
+
+  ul li:nth-child(5) a {
+    background: #bd2a4e;
+  }
+
+ li a:hover {
+   opacity: 1.0;
+   padding-right: 3.0em;
+  /*-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;*/
+}
+
+ul li:nth-child(2) {
+   -webkit-animation-delay: 0.4s; /*El espacio de tiempo que debe transcurrir desde que la animación se aplica al elemento y el comienzo de la misma*/
+   -moz-animation-delay: 0.4s;
+   -ms-animation-delay:0.4s;
+   animation-delay: 0.4s;
+}
+
+ul li:nth-child(3) {
+   -webkit-animation-delay: 0.8s; 
+   -moz-animation-delay: 0.8s;
+   -ms-animation-delay:0.8s;
+   animation-delay: 0.8s;
+}
+
+ul li:nth-child(4) {
+   -webkit-animation-delay: 1.2s;
+   -moz-animation-delay: 1.2s; 
+   -ms-animation-delay:1.2s;
+   animation-delay: 1.2s; 
+}
+
+ul li:nth-child(5) {
+   -webkit-animation-delay: 1.6s;
+   -moz-animation-delay: 1.6s;
+   -ms-animation-delay:1.6s;
+   animation-delay: 1.6s;
+}
+
+@keyframes menu { 
+  0%   {opacity: 0;}  /* @keyframes especifica cuando ocurrira la animacion, se expreza en % que comienza desde el 0% y termina en 100% */
+  25%  {opacity: 0.7;}
+  50%  {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes menu {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.7;}
+  50%  {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes menu {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.7;}
+  50%  {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-ms-keyframes menu {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.7;}
+  50%  {opacity: 1;}
+  100% {opacity: 1;}
+}
+/* ESTILO CASILLAS DE PRESTAMOS */
+
+   h2 {
+  border-bottom: 10px solid red;
+  font-family:;
+  font-size: 65px;
+  font-weight: 900;
+  margin: 0 auto;
+  padding: 20px 0 3px;
+  text-align: center;
+  width: 40.2%;
+}
+.row.text-center{
+	position: relative;
+  -webkit-animation: cosa 1s;
+  -webkit-animation-direction: normal;
+  -ms-animation-direction:normal;
+  animation: cosa 1s;
+  animation-direction: normal; 
+
+}
+@-ms-keyframes cosa{
+ 	0%  {left: -380px;}
+	100% {left: -15px;}	
+}
+@-webkit-keyframes cosa {
+ 	0%  {left: -380px;}
+	100% {left: -15px;}
+
+}
+@keyframes cosa {
+   	0%  {left: -380px;}
+	100% {left: -15px;}
+
+}
+.row.text-center p {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  margin: 3px 0 30px;
+
+}
+
+.h3, h3 {
+  font-size: 24px;
+}
+.btn-default {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  text-shadow: 0 1px 0 #fff;
+  height: 8rem;
+  width: 14rem;
+  padding: 3rem;
+}
+.glyphicon {	
+  color: white;
+}
+
+ .caption-text p {
+  margin: 18px auto 13px;
+  text-align: center;
+  width: 91%;
+}
+.btn-default:focus, .btn-default:hover {
+  background-color: red;
+  background-position: 0 -15px;
+}
+	
+ .cuadro_intro_hover{
+    padding: 0px;
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+.cuadro_intro_hover:hover .caption{
+	opacity: 1;
+	transform: translateY(-150px); /*traslateY: hace que cuadro se mueva a la posicion (n px)*/
+	-webkit-transform:translateY(-150px);
+	-moz-transform:translateY(-150px);
+}
+.cuadro_intro_hover img{
+	z-index: 4;
+}
+.cuadro_intro_hover .caption{
+	position: absolute;
+	top:150px;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	width: 100%;
+}
+.cuadro_intro_hover .blur{
+	background-color: rgba(0,0,0,0.7);
+	height: 300px;
+	z-index: 5;
+	position: absolute;
+	width: 100%;
+}
+.cuadro_intro_hover .caption-text{
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	height: 300px;
+	text-align: center;
+	top:-20px;
+	width: 100%;
+	}
