@@ -9,35 +9,54 @@
 	<link rel="stylesheet" href="css/estilo.css">	
 </head>
 <body>
-	<div class="container-flid">
-		<form class="form-horizontal" role="form">
+ <!-- parte 1 de mantenedor-->
+		<div class="container-fluid">
+			<div class="logo">
+				<img src="img/logo.png" alt="LogoIN" style="boder-width:0px; border-style:solid;height:96px;">
+			</div>						
+<!--  estilo de espacio negro  -->
+		
+		<div class="espacio col-xs-12 col-sm-12 col-md-12">
+			
+		</div>
+			</div>
+
+			<!--FORMULARIO DE PRESTAMO-->
+
+	<div class="container-fluid">
+		    <div class="row text-center">
+		<h1>FORMULARIO DE PRESTAMOS</h1>
+				</div>
+	<div class="container center-block">
+		<form class="form-horizontal" role="form" style="margin-top:2rem" >
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <label for="inputRut" class="col-sm-2 control-label">Rut</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="text" class="form-control" id="inputRut" placeholder="Ingrese Rut">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <label for="inputNombre" class="col-sm-2 control-label">Nombre</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese Nombre del producto">
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="inputCodigo" class="col-sm-2 control-label">Codigo</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputCodigo" placeholder="Ingrese Codigo">
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
+    <a class=" btn btn-success" type="submit"><span class="glyphicon glyphicon-ok"> Ingresar</span></a>
+    <a class=" btn btn-danger" type="submit"><span class="glyphicon glyphicon-remove"> Cancelar</span></a>
+    <!--  <button type="submit" class="btn btn-success">Ingresar</button> -->
+    <!--  <button type="submit" class="btn btn-danger">Cancelar</button>-->
     </div>
   </div>
 </form>
+</div>
 	</div>
 </body>
 </html>
